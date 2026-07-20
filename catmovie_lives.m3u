@@ -1,0 +1,91 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="初秋语•ipv4" tvg-logo="https://live.fanmingming.com/tv/{name}.png" group-title="TVbox",初秋语•ipv4
+./list.txt
+#EXTINF:-1 tvg-name="YanG•综合" group-title="TVbox",YanG•综合
+https://tv.iill.top/m3u/Gather
+#EXTINF:-1 tvg-name="YanG•直播" group-title="TVbox",YanG•直播
+https://tv.iill.top/m3u/Live
+#EXTINF:-1 tvg-name="YanG•体育" group-title="TVbox",YanG•体育
+https://tv.iill.top/m3u/Sport
+#EXTINF:-1 tvg-name="范明明•ipv6" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",范明明•ipv6
+https://live.fanmingming.com/tv/m3u/ipv6.m3u
+#EXTINF:-1 tvg-name="YueChan•综合" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",YueChan•综合
+https://github.moeyy.xyz/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+#EXTINF:-1 tvg-name="Yoursmile•综合" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",Yoursmile•综合
+https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt
+#EXTINF:-1 tvg-name="MemoryC•综合" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",MemoryC•综合
+https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u
+#EXTINF:-1 tvg-name="肥猫•综合" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",肥猫•综合
+http://我不是.肥猫.live/TV/tvzb.txt
+#EXTINF:-1 tvg-name="Ray•综合" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",Ray•综合
+https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt
+#EXTINF:-1 tvg-name="俊于•综合" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",俊于•综合
+http://home.jundie.top:81/Cat/tv/live.txt
+#EXTINF:-1 tvg-name="初秋语•电台" group-title="TVbox",初秋语•电台
+./radio.txt
+#EXTINF:-1 tvg-name="范明明•电台1" group-title="TVbox",范明明•电台1
+https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/fm.m3u
+#EXTINF:-1 tvg-name="范明明•电台2" group-title="TVbox",范明明•电台2
+https://github.moeyy.xyz/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u
+#EXTINF:-1 tvg-name="16万•MV" group-title="TVbox",16万•MV
+https://github.moeyy.xyz/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt
+#EXTINF:-1 tvg-name="YuanHsing•油管" group-title="TVbox",YuanHsing•油管
+https://github.moeyy.xyz/https://raw.githubusercontent.com/YuanHsing/YouTube_to_m3u/main/youtube.m3u
+#EXTINF:-1 tvg-name="PG•油管" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",PG•油管
+./yo21.txt
+#EXTINF:-1 tvg-name="牛播一（仅新版影视仓┃ok影视）" tvg-logo="https://epg.v1.mk/logo/{name}.png" group-title="TVbox",牛播一（仅新版影视仓┃ok影视）
+http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList
+#EXTINF:-1 tvg-name="V4聚合（卡顿请按左┃右键换线）" tvg-logo="https://epg.v1.mk/logo/{name}.png" group-title="TVbox",V4聚合（卡顿请按左┃右键换线）
+https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u
+#EXTINF:-1 tvg-name="V6范明明" group-title="TVbox",V6范明明
+https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
+#EXTINF:-1 tvg-name="平台直播" group-title="TVbox",平台直播
+http://tv.iill.top/m3u/Live
+#EXTINF:-1 tvg-name="live" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",live
+./tvlive.txt
+#EXTINF:-1 tvg-name="本地live文件" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",本地live文件
+http://127.0.0.1:9978/file/XYQTVBox/live.txt
+#EXTINF:-1 tvg-name="FMM_IPV6" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",FMM_IPV6
+https://m3u.ibert.me/txt/fmml_ipv6.txt
+#EXTINF:-1 tvg-name="初秋语" group-title="TVbox",初秋语
+./listx.m3u
+#EXTINF:-1 tvg-name="糖意" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",糖意
+https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt
+#EXTINF:-1 tvg-name="YanG" group-title="TVbox",YanG
+https://tv.iill.top/m3u/Adult
+#EXTINF:-1 tvg-name="atsushi" group-title="TVbox",atsushi
+https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u
+#EXTINF:-1 tvg-name="小武哥" group-title="TVbox",小武哥
+https://qu.ax/PEHy.txt
+#EXTINF:-1 tvg-name="AV" group-title="TVbox",AV
+./livex.m3u
+#EXTINF:-1 tvg-name="直播" group-title="TVbox",直播
+https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u
+#EXTINF:-1 tvg-name="初秋语" group-title="TVbox",初秋语
+./listx.txt
+#EXTINF:-1 tvg-name="YanG" group-title="TVbox",YanG
+https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u
+#EXTINF:-1 tvg-name="live" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",live
+./tv.txt
+#EXTINF:-1 tvg-name="develop202" tvg-logo="https://epg.112114.xyz/logo/{name}.png" group-title="TVbox",develop202
+https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
+#EXTINF:-1 tvg-name="Kimentanm" group-title="TVbox",Kimentanm
+https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+#EXTINF:-1 tvg-name="范明明（需开启V6网络）" group-title="TVbox",范明明（需开启V6网络）
+https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u
+#EXTINF:-1 tvg-name="世界杯" group-title="TVbox",世界杯
+http://82.156.243.185:33389/fwc.m3u
+#EXTINF:-1 tvg-name="虎牙一起看" group-title="TVbox",虎牙一起看
+https://sub.ottiptv.cc/huyayqk.m3u
+#EXTINF:-1 tvg-name="斗鱼一起看" group-title="TVbox",斗鱼一起看
+https://sub.ottiptv.cc/douyuyqk.m3u
+#EXTINF:-1 tvg-name="B站直播" group-title="TVbox",B站直播
+https://sub.ottiptv.cc/bililive.m3u
+#EXTINF:-1 tvg-name="YY轮播" group-title="TVbox",YY轮播
+https://sub.ottiptv.cc/yylunbo.m3u
+#EXTINF:-1 tvg-name="migu" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",migu
+https://develop202.github.io/migu_video/interface.txt
+#EXTINF:-1 tvg-name="live" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",live
+https://epg.pw/test_channels.m3u
+#EXTINF:-1 tvg-name="ipv6" tvg-logo="https://logo.wyfc.qzz.io/{name}.png" group-title="TVbox",ipv6
+./tvboxtv.txt

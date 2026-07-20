@@ -1,0 +1,354 @@
+{
+  "data": [
+    {
+      "id": "百度",
+      "name": "百度┃采集",
+      "type": 0,
+      "api": "https://api.apibdzy.com/api.php/provide/vod?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=百度",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "量子",
+      "name": "量子┃采集",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=量子",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "非凡",
+      "name": "非凡┃采集",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=非凡",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "暴風",
+      "name": "暴風┃采集",
+      "type": 0,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=暴風",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "索尼",
+      "name": "索尼┃采集",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=索尼",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "量子",
+      "name": "量子",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=量子",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "非凡",
+      "name": "非凡",
+      "type": 0,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=非凡",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "155zy.com",
+      "name": "♥155(直连)",
+      "type": 0,
+      "api": "https://155api.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=155zy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "jkunzy.com",
+      "name": "💕jkun(直连)",
+      "type": 0,
+      "api": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=jkunzy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "lebozy.com",
+      "name": "💕乐播(直连)",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=lebozy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "senlinzy.com",
+      "name": "♥森林(直连)",
+      "type": 0,
+      "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=senlinzy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "didizy.com",
+      "name": "♥滴滴(直连)",
+      "type": 0,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=didizy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "vnzyz.com",
+      "name": "💕越南(直连)",
+      "type": 0,
+      "api": "https://vnzyz.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=vnzyz.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "laosebizy.com",
+      "name": "💕老色逼(直连)",
+      "type": 0,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=laosebizy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "semaozy.com",
+      "name": "色猫(FQ)",
+      "type": 0,
+      "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=semaozy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "lajiaozy.com",
+      "name": "辣椒(FQ)",
+      "type": 0,
+      "api": "https://apilj.com/api.php/provide/vod/at/json/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=lajiaozy.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "玉兔资源",
+      "name": "玉兔资源",
+      "type": 0,
+      "api": "https://apiyutu.com/api.php/provide/vod/at/xml/",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=玉兔资源",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "奥斯卡资源网",
+      "name": "奥斯卡",
+      "type": 0,
+      "api": "https://aosikazy.com/api.php/provide/vod/",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=奥斯卡资源网",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "apilj.com",
+      "name": "成人06",
+      "type": 0,
+      "api": "http://apilj.com/api.php/provide/vod/at/json/",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=apilj.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "dadiapi.com",
+      "name": "成人09",
+      "type": 0,
+      "api": "http://dadiapi.com/api.php",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=dadiapi.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "api.11bat.com",
+      "name": "成人15",
+      "type": 0,
+      "api": "http://api.11bat.com/api.php/provide/vod/at/xml",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=api.11bat.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "gdlsp.com",
+      "name": "成人19",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=gdlsp.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "msnii.com",
+      "name": "成人20",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=msnii.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "xrbsp.com",
+      "name": "成人21",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=xrbsp.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "kxgav.com",
+      "name": "成人22",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=kxgav.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "lbapi9.com",
+      "name": "成人26",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=lbapi9.com",
+      "nsfw": true,
+      "status": true
+    },
+    {
+      "id": "电影天堂",
+      "name": "电影天堂",
+      "type": 0,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=电影天堂, playerType=2",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "天涯采集",
+      "name": "天涯",
+      "type": 0,
+      "api": "http://tyyszy.com/api.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=天涯采集, playerType=2",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "量子",
+      "name": "量子[直连]",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=量子",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "非凡",
+      "name": "非凡[直连]",
+      "type": 0,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=非凡",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "索尼",
+      "name": "索尼[直连]",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
+      "logo": "",
+      "desc": "来自 TVbox (type=0), key=索尼",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "极速资源",
+      "name": "极速[直连]",
+      "type": 0,
+      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=极速资源",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "建安采集",
+      "name": "建安",
+      "type": 0,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=建安采集, playerType=2",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "率率",
+      "name": "率率[直连]",
+      "type": 0,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=率率",
+      "nsfw": false,
+      "status": true
+    },
+    {
+      "id": "暴風",
+      "name": "暴風[直连]",
+      "type": 0,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "logo": "",
+      "desc": "来自 TVbox (type=1), key=暴風",
+      "nsfw": false,
+      "status": true
+    }
+  ]
+}
