@@ -1,0 +1,70 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: build ios
+
+# 手动触发，构建未签名 IPA，下载 artifact 后自行签名安装
+on:
+  workflow_dispatch:
+
+env:
+  FLUTTER_VERSION: 3.35.3
+  GIST_ID: 3fc0adf7ac60b351a9432e9f8ed4e9d3
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 'latest-stable'
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          cache: true
+          channel: stable
+
+      - name: Download kitty.umd.js
+        run: |
+          echo "📥 Downloading kitty.umd.js from gist..."
+          mkdir -p packages/xi/assets/js
+          curl -L -o packages/xi/assets/js/kitty.umd.js \
+            "https://gist.githubusercontent.com/d1y/${{ env.GIST_ID }}/raw/kitty.umd.js"
+          echo "✅ Downloaded kitty.umd.js"
+
+      - name: Generate git_info.dart
+        run: bash script/fetch_git_info.sh
+
+      - name: Install deps & generate code
+        run: |
+          flutter pub get
+          flutter pub run build_runner build --delete-conflicting-outputs
+
+      - name: Generate JS templates
+        run: |
+          cd JS/cli
+          bun install
+          cd ../../packages/xi/lib/adapters/templates
+          bun install
+          bun run build
+
+      - name: Build iOS
+        run: flutter build ios --release --no-codesign
+
+      - name: Pack IPA
+        run: |
+          cd build/ios/iphoneos
+          mkdir Payload
+          cd Payload
+          ln -s ../Runner.app
+          cd ..
+          zip -r catmovie.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: catmovie-ipa
+          path: build/ios/iphoneos/catmovie.ipa
