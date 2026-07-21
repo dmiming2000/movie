@@ -256,6 +256,8 @@ jobs:
           cd ../../packages/xi/lib/adapters/templates
           bun install
           bun run build
+      - name: Patch screen_brightness_ios for Flutter 3.35
+        run: python3 script/patch_screen_brightness_ios.py
       - name: Build iOS
         run: flutter build ios --release --no-codesign
       - name: Pack IPA
