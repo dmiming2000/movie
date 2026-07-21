@@ -929,7 +929,7 @@ packages:
     description:
       path: media_kit_video
       ref: main
-      resolved-ref: "7b248251fc274f986635876946130f2afc78c959"
+      resolved-ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       url: "https://github.com/Predidit/media-kit.git"
     source: git
     version: "1.2.5"
