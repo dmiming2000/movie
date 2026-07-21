@@ -865,7 +865,7 @@ packages:
     dependency: "direct main"
     description:
       path: media_kit
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -874,7 +874,7 @@ packages:
     dependency: "direct overridden"
     description:
       path: "libs/android/media_kit_libs_android_video"
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -883,7 +883,7 @@ packages:
     dependency: "direct overridden"
     description:
       path: "libs/ios/media_kit_libs_ios_video"
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -892,7 +892,7 @@ packages:
     dependency: "direct overridden"
     description:
       path: "libs/linux/media_kit_libs_linux"
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -901,7 +901,7 @@ packages:
     dependency: "direct overridden"
     description:
       path: "libs/macos/media_kit_libs_macos_video"
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -910,7 +910,7 @@ packages:
     dependency: "direct main"
     description:
       path: "libs/universal/media_kit_libs_video"
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -919,7 +919,7 @@ packages:
     dependency: "direct overridden"
     description:
       path: "libs/windows/media_kit_libs_windows_video"
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: ad84c59faa2b871926cb31516bdeec65d7676884
       url: "https://github.com/Predidit/media-kit.git"
     source: git
@@ -928,7 +928,7 @@ packages:
     dependency: "direct main"
     description:
       path: media_kit_video
-      ref: main
+      ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       resolved-ref: "ad84c59faa2b871926cb31516bdeec65d7676884"
       url: "https://github.com/Predidit/media-kit.git"
     source: git
