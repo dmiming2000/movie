@@ -61,3 +61,7 @@ git_info.dart
 
 flutter_export_environment.sh
 Flutter-Generated.xcconfig
+
+# 本地目录，不上传 GitHub
+docs/
+tools/
