@@ -17,7 +17,7 @@ permissions:
 env:
   FLUTTER_VERSION: 3.35.3
   GIST_ID: 3fc0adf7ac60b351a9432e9f8ed4e9d3
-  LINUX_DEPENDENCIES: git wget unzip python3 zip xz-utils curl clang cmake ninja-build pkg-config libgtk-3-dev libblkid-dev liblzma-dev libjsoncpp-dev cmake-data libjsoncpp25 libsecret-1-dev libsecret-1-0 librhash0 libsqlite3-dev libappindicator3-dev gettext libwebkit2gtk-4.1-dev libasound2-dev libmpv-dev mpv
+  LINUX_DEPENDENCIES: git wget unzip python3 zip xz-utils curl clang cmake ninja-build pkg-config libgtk-3-dev libblkid-dev liblzma-dev libjsoncpp-dev cmake-data libjsoncpp25 libsecret-1-dev libsecret-1-0 libsqlite3-dev libayatana-appindicator3-dev gettext libwebkit2gtk-4.1-dev libasound2-dev libmpv-dev mpv
 
 jobs:
 
@@ -49,7 +49,7 @@ jobs:
           echo "::notice::Will release version=$VER tag=$TAG"
 
   build-windows:
-    runs-on: windows-latest
+    runs-on: windows-2022
     needs: prepare
     steps:
       - uses: actions/checkout@v4
@@ -85,6 +85,10 @@ jobs:
           cd ../../packages/xi/lib/adapters/templates
           bun install
           bun run build
+      - name: Setup MSVC toolchain
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
       - name: Build windows
         run: |
           flutter config --enable-windows-desktop
@@ -139,7 +143,9 @@ jobs:
           bun install
           bun run build
       - name: Install Linux dependencies
-        run: sudo apt update && sudo apt-get install -y ${{ env.LINUX_DEPENDENCIES }} || true
+        run: |
+          sudo apt-get update || true
+          sudo apt-get install -y ${{ env.LINUX_DEPENDENCIES }}
       - name: Build linux
         run: |
           bash script/fetch_git_info.sh
